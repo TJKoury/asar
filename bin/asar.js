@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 var asar = require('../lib/asar')
 var program = require('commander')
 
