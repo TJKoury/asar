@@ -20,7 +20,8 @@
   },
   "scripts": {
     "test": "mocha --reporter spec && npm run lint",
-    "lint": "standard"
+    "lint": "standard",
+    "webpack": "webpack"
   },
   "standard": {
     "env": {
@@ -38,9 +39,13 @@
     "tmp": "0.0.28"
   },
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
     "lodash": "^4.2.1",
     "mocha": "^2.0.1",
     "rimraf": "^2.5.1",
-    "standard": "^8.6.0"
+    "standard": "^8.6.0",
+    "webpack": "^3.5.5",
+    "webpack-node-externals": "^1.6.0"
   }
 }
