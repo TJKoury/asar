@@ -7,7 +7,7 @@ var outputFile = libraryName + '.js';
 
 var config = {
   entry: __dirname + '/lib/asar.js',
-  devtool: 'source-map',
+  //devtool: 'source-map',
   target: 'node',
   externals:require('webpack-node-externals')(),
   context: __dirname,
@@ -31,12 +31,12 @@ var config = {
         }
       }
     ]
-  },
+  }/*,
   plugins:[
     new (require('uglifyjs-webpack-plugin'))({
       
     })
-  ]
+  ]*/
 };
 
 module.exports = config;
