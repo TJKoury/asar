@@ -1,6 +1,6 @@
 'use strict'
 const assert = require('assert')
-const fs = require('fs')
+const fs = process.versions.electron ? require('original-fs') : require('fs')
 const os = require('os')
 const path = require('path')
 const rimraf = require('rimraf')
@@ -12,7 +12,7 @@ const transform = require('./util/transformStream')
 
 describe('api', function () {
   beforeEach(function () {
-    rimraf.sync(path.join(__dirname, '..', 'tmp'))
+    rimraf.sync(path.join(__dirname, '..', 'tmp'), fs)
   })
   it('should create archive from directory', function (done) {
     asar.createPackage('test/input/packthis/', 'tmp/packthis-api.asar', function (error) {
@@ -30,6 +30,13 @@ describe('api', function () {
     asar.createPackageWithOptions('test/input/packthis/', 'tmp/packthis-api-transformed.asar', {transform}, function (error) {
       if (error != null) return done(error)
       done(compFiles('tmp/packthis-api-transformed.asar', 'test/expected/packthis-transformed.asar'))
+    })
+  })
+  it('should create archive from directory (with nothing packed)', function (done) {
+    asar.createPackageWithOptions('test/input/packthis/', 'tmp/packthis-api-unpacked.asar', { unpackDir: '**' }, function (error) {
+      if (error != null) return done(error)
+      compFiles('tmp/packthis-api-unpacked.asar', 'test/expected/packthis-all-unpacked.asar')
+      compDirs('tmp/packthis-api-unpacked.asar.unpacked', 'test/expected/extractthis', done)
     })
   })
   it('should list files/dirs in archive', function () {
