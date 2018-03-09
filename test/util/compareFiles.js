@@ -1,6 +1,6 @@
 'use strict'
 const assert = require('assert')
-const fs = process.versions.electron ? require('original-fs') : require('fs')
+const fs = require('fs')
 
 module.exports = function (filepathA, filepathB) {
   const actual = fs.readFileSync(filepathA, 'utf8')

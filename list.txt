@@ -1,0 +1,121 @@
+asar@0.14.3 E:\software\asar
++-- UNMET DEPENDENCY chromium-pickle-js@0.2.0
++-- UNMET DEPENDENCY commander@2.11.0
++-- UNMET DEPENDENCY cuint@0.2.2
++-- UNMET DEPENDENCY glob@6.0.4
+| +-- UNMET DEPENDENCY inflight@1.0.6
+| | +-- UNMET DEPENDENCY once@1.4.0
+| | `-- UNMET DEPENDENCY wrappy@1.0.2
+| +-- UNMET DEPENDENCY inherits@2.0.3
+| +-- UNMET DEPENDENCY minimatch@3.0.4
+| +-- UNMET DEPENDENCY once@1.4.0
+| | `-- UNMET DEPENDENCY wrappy@1.0.2
+| `-- UNMET DEPENDENCY path-is-absolute@1.0.1
++-- UNMET DEPENDENCY minimatch@3.0.4
+| `-- UNMET DEPENDENCY brace-expansion@1.1.8
+|   +-- UNMET DEPENDENCY balanced-match@1.0.0
+|   `-- UNMET DEPENDENCY concat-map@0.0.1
++-- UNMET DEPENDENCY mkdirp@0.5.1
+| `-- UNMET DEPENDENCY minimist@0.0.8
++-- UNMET DEPENDENCY mksnapshot@0.3.1
+| +-- UNMET DEPENDENCY decompress-zip@0.3.0
+| | +-- UNMET DEPENDENCY binary@0.3.0
+| | | +-- UNMET DEPENDENCY buffers@0.1.1
+| | | `-- UNMET DEPENDENCY chainsaw@0.1.0
+| | |   `-- UNMET DEPENDENCY traverse@0.3.9
+| | +-- UNMET DEPENDENCY graceful-fs@4.1.11
+| | +-- UNMET DEPENDENCY mkpath@0.1.0
+| | +-- UNMET DEPENDENCY nopt@3.0.6
+| | | `-- UNMET DEPENDENCY abbrev@1.1.0
+| | +-- UNMET DEPENDENCY q@1.5.0
+| | +-- UNMET DEPENDENCY readable-stream@1.1.14
+| | | +-- UNMET DEPENDENCY core-util-is@1.0.2
+| | | +-- UNMET DEPENDENCY inherits@2.0.3
+| | | +-- UNMET DEPENDENCY isarray@0.0.1
+| | | `-- UNMET DEPENDENCY string_decoder@0.10.31
+| | `-- UNMET DEPENDENCY touch@0.0.3
+| |   `-- UNMET DEPENDENCY nopt@1.0.10
+| |     `-- UNMET DEPENDENCY abbrev@1.1.0
+| +-- UNMET DEPENDENCY fs-extra@0.26.7
+| | +-- UNMET DEPENDENCY graceful-fs@4.1.11
+| | +-- UNMET DEPENDENCY jsonfile@2.4.0
+| | | `-- UNMET DEPENDENCY graceful-fs@4.1.11
+| | +-- UNMET DEPENDENCY klaw@1.3.1
+| | | `-- UNMET DEPENDENCY graceful-fs@4.1.11
+| | +-- UNMET DEPENDENCY path-is-absolute@1.0.1
+| | `-- UNMET DEPENDENCY rimraf@2.6.1
+| |   `-- UNMET DEPENDENCY glob@7.1.2
+| |     +-- UNMET DEPENDENCY fs.realpath@1.0.0
+| |     +-- UNMET DEPENDENCY inflight@1.0.6
+| |     +-- UNMET DEPENDENCY inherits@2.0.3
+| |     +-- UNMET DEPENDENCY minimatch@3.0.4
+| |     +-- UNMET DEPENDENCY once@1.4.0
+| |     `-- UNMET DEPENDENCY path-is-absolute@1.0.1
+| `-- UNMET DEPENDENCY request@2.81.0
+|   +-- UNMET DEPENDENCY aws-sign2@0.6.0
+|   +-- UNMET DEPENDENCY aws4@1.6.0
+|   +-- UNMET DEPENDENCY caseless@0.12.0
+|   +-- UNMET DEPENDENCY combined-stream@1.0.5
+|   | `-- UNMET DEPENDENCY delayed-stream@1.0.0
+|   +-- UNMET DEPENDENCY extend@3.0.1
+|   +-- UNMET DEPENDENCY forever-agent@0.6.1
+|   +-- UNMET DEPENDENCY form-data@2.1.4
+|   | +-- UNMET DEPENDENCY asynckit@0.4.0
+|   | +-- UNMET DEPENDENCY combined-stream@1.0.5
+|   | `-- UNMET DEPENDENCY mime-types@2.1.16
+|   +-- UNMET DEPENDENCY har-validator@4.2.1
+|   | +-- UNMET DEPENDENCY ajv@4.11.8
+|   | | +-- UNMET DEPENDENCY co@4.6.0
+|   | | `-- UNMET DEPENDENCY json-stable-stringify@1.0.1
+|   | |   `-- UNMET DEPENDENCY jsonify@0.0.0
+|   | `-- UNMET DEPENDENCY har-schema@1.0.5
+|   +-- UNMET DEPENDENCY hawk@3.1.3
+|   | +-- UNMET DEPENDENCY boom@2.10.1
+|   | | `-- UNMET DEPENDENCY hoek@2.16.3
+|   | +-- UNMET DEPENDENCY cryptiles@2.0.5
+|   | | `-- UNMET DEPENDENCY boom@2.10.1
+|   | +-- UNMET DEPENDENCY hoek@2.16.3
+|   | `-- UNMET DEPENDENCY sntp@1.0.9
+|   |   `-- UNMET DEPENDENCY hoek@2.16.3
+|   +-- UNMET DEPENDENCY http-signature@1.1.1
+|   | +-- UNMET DEPENDENCY assert-plus@0.2.0
+|   | +-- UNMET DEPENDENCY jsprim@1.4.1
+|   | | +-- UNMET DEPENDENCY assert-plus@1.0.0
+|   | | +-- UNMET DEPENDENCY extsprintf@1.3.0
+|   | | +-- UNMET DEPENDENCY json-schema@0.2.3
+|   | | `-- UNMET DEPENDENCY verror@1.10.0
+|   | |   +-- UNMET DEPENDENCY assert-plus@1.0.0
+|   | |   +-- UNMET DEPENDENCY core-util-is@1.0.2
+|   | |   `-- UNMET DEPENDENCY extsprintf@1.3.0
+|   | `-- UNMET DEPENDENCY sshpk@1.13.1
+|   |   +-- UNMET DEPENDENCY asn1@0.2.3
+|   |   +-- UNMET DEPENDENCY assert-plus@1.0.0
+|   |   +-- UNMET OPTIONAL DEPENDENCY bcrypt-pbkdf@1.0.1
+|   |   | `-- UNMET OPTIONAL DEPENDENCY tweetnacl@0.14.5
+|   |   +-- UNMET DEPENDENCY dashdash@1.14.1
+|   |   | `-- UNMET DEPENDENCY assert-plus@1.0.0
+|   |   +-- UNMET OPTIONAL DEPENDENCY ecc-jsbn@0.1.1
+|   |   | `-- UNMET OPTIONAL DEPENDENCY jsbn@0.1.1
+|   |   +-- UNMET DEPENDENCY getpass@0.1.7
+|   |   | `-- UNMET DEPENDENCY assert-plus@1.0.0
+|   |   +-- UNMET OPTIONAL DEPENDENCY jsbn@0.1.1
+|   |   `-- UNMET OPTIONAL DEPENDENCY tweetnacl@0.14.5
+|   +-- UNMET DEPENDENCY is-typedarray@1.0.0
+|   +-- UNMET DEPENDENCY isstream@0.1.2
+|   +-- UNMET DEPENDENCY json-stringify-safe@5.0.1
+|   +-- UNMET DEPENDENCY mime-types@2.1.16
+|   | `-- UNMET DEPENDENCY mime-db@1.29.0
+|   +-- UNMET DEPENDENCY oauth-sign@0.8.2
+|   +-- UNMET DEPENDENCY performance-now@0.2.0
+|   +-- UNMET DEPENDENCY qs@6.4.0
+|   +-- UNMET DEPENDENCY safe-buffer@5.1.1
+|   +-- UNMET DEPENDENCY stringstream@0.0.5
+|   +-- UNMET DEPENDENCY tough-cookie@2.3.2
+|   | `-- UNMET DEPENDENCY punycode@1.4.1
+|   +-- UNMET DEPENDENCY tunnel-agent@0.6.0
+|   | `-- UNMET DEPENDENCY safe-buffer@5.1.1
+|   `-- UNMET DEPENDENCY uuid@3.1.0
++-- UNMET DEPENDENCY tmp@0.0.28
+| `-- UNMET DEPENDENCY os-tmpdir@1.0.2
+`-- UNMET DEPENDENCY webpack@3.5.5
+

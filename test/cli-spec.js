@@ -1,7 +1,7 @@
 'use strict'
 const assert = require('assert')
 const exec = require('child_process').exec
-const fs = process.versions.electron ? require('original-fs') : require('fs')
+const fs = require('fs')
 const os = require('os')
 const path = require('path')
 const rimraf = require('rimraf')
