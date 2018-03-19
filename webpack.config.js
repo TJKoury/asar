@@ -5,7 +5,7 @@ var path = require('path');
 
 var config = {
   entry: __dirname + '/lib/monkeypatch/index.js',
-  mode: 'development',
+  mode: 'production',
   target: 'node',
   context: __dirname,
   output: {
